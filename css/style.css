@@ -126,3 +126,36 @@ body {
     padding: 20px;
     margin-bottom: 25px;
 }
+/* SOURCES PAGE */
+
+.sources-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.08);
+    border-radius: 12px;
+}
+
+.sources-container h1 {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.sources-container h2 {
+    color: #ffd700;
+    margin-top: 30px;
+}
+
+.sources-container p {
+    margin: 10px 0;
+}
+
+.sources-container a {
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.sources-container a:hover {
+    color: #ffd700;
+}
