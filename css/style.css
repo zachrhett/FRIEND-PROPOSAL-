@@ -40,7 +40,7 @@ body {
   width: 100%;
   min-height: 100vh;
   background: #061b45;
-  padding: 24px;
+  padding: 20px;
 }
 
 .image-wrap {
@@ -51,7 +51,7 @@ body {
 
 .proposal-image {
   display: block;
-  width: auto;
+  width: 1280px;
   max-width: 100%;
   height: auto;
   background: white;
