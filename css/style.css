@@ -45,3 +45,51 @@ body {
     width: 100%;
   }
 }
+.top-nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+
+    padding:15px;
+
+    background:#003087;
+    border-bottom:4px solid #d71920;
+}
+
+.top-nav a{
+    color:white;
+    text-decoration:none;
+
+    font-weight:bold;
+
+    padding:10px 16px;
+
+    border-radius:8px;
+
+    background:#0057b8;
+
+    transition:.25s;
+}
+
+.top-nav a:hover{
+    background:#d71920;
+}
+
+@media(max-width:900px){
+
+.top-nav{
+    gap:6px;
+    padding:10px;
+}
+
+.top-nav a{
+    font-size:12px;
+    padding:8px 10px;
+}
+
+}
