@@ -90,3 +90,39 @@ body {
 .source-category a:hover{
     text-decoration:underline;
 }
+/* ===== SOURCES PAGE FIX ===== */
+
+.sources-page {
+    color: white !important;
+}
+
+.sources-page h1,
+.sources-page h2,
+.sources-page h3,
+.sources-page p,
+.sources-page li {
+    color: white !important;
+}
+
+.sources-page a {
+    color: #FFD700 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sources-page a:hover {
+    color: white !important;
+}
+
+.sources-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.source-category {
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.20);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
