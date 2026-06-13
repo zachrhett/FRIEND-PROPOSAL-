@@ -56,3 +56,37 @@ body {
   height: auto;
   background: white;
 }
+.sources-container{
+    padding:30px;
+}
+
+.source-category{
+    background:#ffffff;
+    border:1px solid #d9e3f0;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+}
+
+.source-category h3{
+    color:#003087;
+    margin-bottom:12px;
+}
+
+.source-category ul{
+    padding-left:20px;
+}
+
+.source-category li{
+    margin-bottom:8px;
+}
+
+.source-category a{
+    color:#0056b3;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.source-category a:hover{
+    text-decoration:underline;
+}
