@@ -1,1 +1,47 @@
+/* css/style.css */
 
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #061b45;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.page-shell {
+  width: 100%;
+  min-height: 100vh;
+  background: #061b45;
+}
+
+.proposal-image {
+  display: block;
+  width: 100%;
+  max-width: 1366px;
+  height: auto;
+  margin: 0 auto;
+  background: white;
+}
+
+.image-wrap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #061b45;
+}
+
+@media (max-width: 900px) {
+  .proposal-image {
+    width: 100%;
+  }
+}
