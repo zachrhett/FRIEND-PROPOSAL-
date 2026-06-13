@@ -159,3 +159,72 @@ body {
 .sources-container a:hover {
     color: #ffd700;
 }
+.sources-page {
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.sources-image-area {
+  width: 100%;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.sources-image-area img {
+  display: block;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.active-sources {
+  max-width: 1400px;
+  margin: 0 auto 40px auto;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.active-sources h1 {
+  color: #003da5;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+.source-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.source-grid div {
+  background: #f4f7fb;
+  border: 1px solid #d9e3f0;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.source-grid h2 {
+  color: #003da5;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.source-grid a {
+  display: block;
+  color: #0057d9;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 6px 0;
+  text-decoration: underline;
+}
+
+.source-grid a:hover {
+  color: #c8102e;
+}
+
+@media (max-width: 900px) {
+  .source-grid {
+    grid-template-columns: 1fr;
+  }
+}
